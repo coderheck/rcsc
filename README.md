@@ -18,11 +18,20 @@ a copy of my current `ClientSettings` setup is included in this repository as an
 I will update the source code to add custom file directories eventually.
 
 ## Building from source
+
 ### Requirements
+
 0. an installation of the Roblox player client (why would you even use this program if you don't have a Roblox client installed).
-1. a compiler that supports the C++17 standard (for `<filesystem>` library). For releases, I will be using `g++`.
+1. a compiler that supports the C++17 standard (for `<filesystem>` library). For releases, I will be using `g++ 15.2`.
+
+### Do the thing
+
+you are free to compile however you want. however if you are tech illiterate you can use the following minimal compiling command: `g++ -std=c++17 -o rcsc rcsc.cpp`
+
+(the above is for GNU `g++` only, for other compilers like Clang or MSVC you'd have to follow their own instructions.)
 
 ## TODO
 01. write a more comprehensive installation and building guide
 02. implement QoL features like custom `ClientSettings` directories and some kind of preset system 
+
 
