@@ -1,0 +1,9 @@
+{
+	"DFFlagEarlyExitIfHang": false,
+	"FFlagEnableQuickGameLaunch": true,
+	"FFlagPreloadAllFonts": true,
+	"FFlagPreloadMinimalFonts": true,
+	"FFlagFixGraphicsQuality": true,
+	"FFlagCommitToGraphicsQualityFix": true,
+	"FFlagHandleAltEnterFullscreenManually": false
+}
