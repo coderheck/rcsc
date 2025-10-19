@@ -11,7 +11,11 @@
 
 run it from your preferred command-line interface by calling `rcsc`
 
-`rcsc` currently only supports copying `ClientAppSettings.json` located in a folder named `ClientSettings` in the same directory as the executable (so the directory string looks like this `.\ClientSettings\ClientAppSettings.json`). I will update the source to add custom file directories eventually.
+`rcsc` currently only supports copying `ClientAppSettings.json` located in a folder named `ClientSettings` in the same directory as the executable (so the directory string looks like this `.\ClientSettings\ClientAppSettings.json`).
+
+a copy of my current `ClientSettings` setup is included in this repository as an example.
+
+I will update the source code to add custom file directories eventually.
 
 ## Building from source
 ### Requirements
@@ -21,3 +25,4 @@ run it from your preferred command-line interface by calling `rcsc`
 ## TODO
 01. write a more comprehensive installation and building guide
 02. implement QoL features like custom `ClientSettings` directories and some kind of preset system 
+
